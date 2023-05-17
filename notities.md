@@ -1,5 +1,8 @@
 # Notities
 
+#draw.io linkie
+https://app.diagrams.net/
+
 #Flowchart Symbolen:
 [afbeelding](https://github.com/rootRichard/notities_scripting/assets/113715907/07d766af-4b9a-4362-9cf7-f596c3fce10c)
 
