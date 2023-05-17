@@ -10,6 +10,7 @@ import datetime
 
 
 (Bestand openen en lokaal opslaan)
+
 klanten = []
 header = None
 fileName = 'Klanten.csv'
@@ -21,6 +22,7 @@ with open(fileName, mode= 'r',newline='') as klantenFile:
         
         
 (Voorbeeld code opbouw)
+
 import csv
 
 KlantenNieuw = []
