@@ -1,7 +1,11 @@
 # Notities
 
 #Flowchart Symbolen:
-[afbeelding](https://github.com/rootRichard/notities_scripting/assets/113715907/07d766af-4b9a-4362-9cf7-f596c3fce10c)
+![afbeelding](https://github.com/rootRichard/notities_scripting/assets/113715907/07d766af-4b9a-4362-9cf7-f596c3fce10c)
+
+#In volledigheid Flowchart voorbeeld:
+![afbeelding](https://github.com/rootRichard/notities_scripting/assets/113715907/e2f6438d-f701-4840-8cb2-7513f6185d66)
+
 
     #Importeren
     import csv
