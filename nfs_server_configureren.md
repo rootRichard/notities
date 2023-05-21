@@ -12,13 +12,12 @@
    systemctl start nfsserver.service
    systemctl start rpcbind.service
    systemctl stop firewalld.service
-   
    vi /etc/exports
        (voeg de volgende regel in dit bestand en wijzig het ip-adres) 
        /home/nfspublic 192.168.118.0/255.255.255.0(rw,no_root_squash,insecure)  
   
   systemctl restart nfsserver.service
-   showmount -e "dit commmando controleert of exports goed geconfigureerd is" 
+  showmount -e "dit commmando controleert of exports goed geconfigureerd is" 
        Output:
        Export list for localhost.localdomain:
        /home/nfspublic 192.168.118.0/255.255.255.0
