@@ -29,7 +29,7 @@
 
 #Machine2 Windows client
 
-Maak een netwerk verbinding
+    (Maak een netwerk verbinding)
     path \\ip-adres_van_de_server\smbjevoornaam
     
     Opnieuw verbinding maken... "uitvinken"
