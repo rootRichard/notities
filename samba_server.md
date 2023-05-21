@@ -4,21 +4,20 @@
 
 #Machine1 Linux
 
-    open konsole
-    inloggen met root account "su"  enter en daarna wachtwoord van root
+    sudo su
     cd /home
-    maak een map aan "mkdir smbjevoornaam"
+    mkdir smbjevoornaam
     chgrp users smbjevoornaam
     chmod 770 smbjevoornaam "om de rechten van de groep eigenaar te wijzigen
     vi /etc/samba/smb.conf
        helemaal onderaan voeg de volgende regels
 
-       [smbjevoornaam]
-                        path = /home/smbjevoornaam
-                        writeable = yes
-                        comment = "Het is optioneel"
+    [smbjevoornaam]
+          path = /home/smbjevoornaam
+          writeable = yes
+          comment = "Het is optioneel"
         
-       als je klaar bent, druk op ESC daarna :wq!
+    wq!
 
     systemctl start smb.service
     systemctl start nmb.service
