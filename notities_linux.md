@@ -26,8 +26,3 @@
 
     firewall-cmd --add-service=samba --permanent  "Samba service permanent toevoegen aan firewall zodat de services niet meer geblokkeerd worden"
     firewall-cmd --reload
-
-    uitzondering samba server: 
-    setfacl -m g:groupB:r-x /home/samba/Test "Toegang verlenen aan bepaalde groep tot bepaalde map"
-
-    setfacl -m o::--- /home/samba/Test "Geen toegang voor other"
