@@ -1,6 +1,6 @@
 #Notities Linux
 
-Basic Linux Commands
+#Basic Linux Commands
 
     mkdir   "map aanmaken"
     touch   "bestand aanmaken"
