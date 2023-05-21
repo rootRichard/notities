@@ -1,6 +1,6 @@
 #NFS server configureren
  
-#Machine1 server 
+#(Machine1 server) 
    Open konsole
    cd /home
    mkdir nfspublic
@@ -22,7 +22,7 @@
        Export list for localhost.localdomain:
        /home/nfspublic 192.168.118.0/255.255.255.0
 
-#Machine2 client
+#(Machine2 client)
    Open konsole 
    cd /home
    mkdir nfsjevoornaam
